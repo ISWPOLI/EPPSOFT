@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DefinicionHitos>
+  <Item Columna="CodigoProceso" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="NombreProceso" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="CodigoSubproceso" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="NombreSubproceso" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="CodigoHito" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="NombreHito" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="NombreSubproyecto" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="NivelMedicionHito" TipoDato="int" PermiteVacio="false"></Item>
+  <Item Columna="LineaTiempo" TipoDato="int" PermiteVacio="false"></Item>
+  <Item Columna="CodigoEntregable" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="NombreEntregable" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="Extensiones" TipoDato="string" PermiteVacio="false"></Item>
+</DefinicionHitos>

@@ -1,0 +1,27 @@
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\Entidades\bin\Debug\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\Entidades\bin\Debug\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\Entidades\obj\Debug\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\Entidades\obj\Debug\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\Entidades\bin\Debug\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\Entidades\bin\Debug\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\Entidades\obj\Debug\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\Entidades\obj\Debug\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\Entidades\bin\Debug\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\Entidades\bin\Debug\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\Entidades\obj\Debug\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\Entidades\obj\Debug\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\Entidades\bin\Debug\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\Entidades\bin\Debug\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\Entidades\obj\Debug\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\Entidades\obj\Debug\Entidades.pdb
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\Entidades\bin\Debug\Entidades.dll
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\Entidades\bin\Debug\Entidades.pdb
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\Entidades\obj\Debug\Entidades.dll
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\Entidades\obj\Debug\Entidades.pdb
+D:\Rockrin\Desktop\Proyecto\HitosReportes 2016-01-22\Entidades\bin\Debug\Entidades.dll
+D:\Rockrin\Desktop\Proyecto\HitosReportes 2016-01-22\Entidades\bin\Debug\Entidades.pdb
+D:\Rockrin\Desktop\Proyecto\HitosReportes 2016-01-22\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Rockrin\Desktop\Proyecto\HitosReportes 2016-01-22\Entidades\obj\Debug\Entidades.dll
+D:\Rockrin\Desktop\Proyecto\HitosReportes 2016-01-22\Entidades\obj\Debug\Entidades.pdb

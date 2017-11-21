@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DefinicionTerritorio>
+  <Item Columna="CodigoPais" TipoDato="int" PermiteVacio="false"></Item>
+  <Item Columna="NombrePais" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="CodigoDepto" TipoDato="int" PermiteVacio="false"></Item>
+  <Item Columna="NombreDepto" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="CodigoMunicipio" TipoDato="int" PermiteVacio="false"></Item>
+  <Item Columna="NombreMunicipio" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="Coordenadas" TipoDato="string" PermiteVacio="false"></Item>
+</DefinicionTerritorio>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Usuario>
+  <Item Columna="Nombre" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="Cedula" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="Email" TipoDato="string" PermiteVacio="true"></Item>
+  <Item Columna="Direccion" TipoDato="string" PermiteVacio="true"></Item>
+  <Item Columna="Telefono" TipoDato="string" PermiteVacio="true"></Item>
+  <Item Columna="NombreUsuario" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="Contraseña" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="IdCargo" TipoDato="int" PermiteVacio="false"></Item>
+  <Item Columna="IdCargo2" TipoDato="int" PermiteVacio="true"></Item>
+  <Item Columna="IdCargo3" TipoDato="int" PermiteVacio="true"></Item>
+  <Item Columna="IdTercero" TipoDato="int" PermiteVacio="false"></Item>
+  <Item Columna="CodigoProyecto" TipoDato="string" PermiteVacio="true"></Item>
+  <Item Columna="NivelMedicion" TipoDato="int" PermiteVacio="true"></Item>
+  <Item Columna="CodigoOpcion" TipoDato="string" PermiteVacio="true"></Item>
+  <Item Columna="IdPerfil" TipoDato="int" PermiteVacio="false"></Item>
+  <Item Columna="IdPerfil2" TipoDato="int" PermiteVacio="true"></Item>
+</Usuario>

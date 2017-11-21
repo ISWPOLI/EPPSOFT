@@ -1,0 +1,31 @@
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\Entidades\bin\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\Entidades\bin\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\Entidades\obj\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\Entidades\obj\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\Entidades\bin\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\Entidades\bin\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\Entidades\obj\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\Entidades\obj\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\Entidades\bin\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\Entidades\bin\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\Entidades\obj\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\Entidades\obj\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\Entidades\bin\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\Entidades\bin\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\Entidades\obj\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\Entidades\obj\Release\Entidades.pdb
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\Entidades\bin\Release\Entidades.dll
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\Entidades\bin\Release\Entidades.pdb
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\Entidades\obj\Release\Entidades.dll
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\Entidades\obj\Release\Entidades.pdb
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\Entidades\bin\Release\Entidades.dll
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\Entidades\bin\Release\Entidades.pdb
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\Entidades\obj\Release\Entidades.dll
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\Entidades\obj\Release\Entidades.pdb

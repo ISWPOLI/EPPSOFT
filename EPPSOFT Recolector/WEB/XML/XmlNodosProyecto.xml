@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Nodos>
+  <Item Columna="NombreSubproyecto" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="CodigoNodo" TipoDato="int" PermiteVacio="false"></Item>
+  <Item Columna="NombreCAD" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="CodigoMunicipio" TipoDato="int" PermiteVacio="false"></Item>
+</Nodos>

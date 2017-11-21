@@ -1,0 +1,23 @@
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\PruebasUnitarias\bin\Debug\PruebasUnitarias.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\PruebasUnitarias\bin\Debug\PruebasUnitarias.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\PruebasUnitarias\obj\Debug\PruebasUnitarias.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\PruebasUnitarias\obj\Debug\PruebasUnitarias.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\PruebasUnitarias\obj\Debug\PruebasUnitarias.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\PruebasUnitarias\bin\Debug\PruebasUnitarias.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\PruebasUnitarias\bin\Debug\PruebasUnitarias.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\PruebasUnitarias\obj\Debug\PruebasUnitarias.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\PruebasUnitarias\obj\Debug\PruebasUnitarias.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\PruebasUnitarias\obj\Debug\PruebasUnitarias.pdb
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\PruebasUnitarias\bin\Debug\PruebasUnitarias.dll
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\PruebasUnitarias\bin\Debug\PruebasUnitarias.pdb
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\PruebasUnitarias\obj\Debug\PruebasUnitarias.dll
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\PruebasUnitarias\obj\Debug\PruebasUnitarias.pdb
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\PruebasUnitarias\obj\Debug\PruebasUnitarias.csprojResolveAssemblyReference.cache
+D:\Rockrin\Desktop\Proyecto\HitosReportes 2016-01-22\PruebasUnitarias\bin\Debug\PruebasUnitarias.dll
+D:\Rockrin\Desktop\Proyecto\HitosReportes 2016-01-22\PruebasUnitarias\bin\Debug\PruebasUnitarias.pdb
+D:\Rockrin\Desktop\Proyecto\HitosReportes 2016-01-22\PruebasUnitarias\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Rockrin\Desktop\Proyecto\HitosReportes 2016-01-22\PruebasUnitarias\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Rockrin\Desktop\Proyecto\HitosReportes 2016-01-22\PruebasUnitarias\obj\Debug\PruebasUnitarias.csprojResolveAssemblyReference.cache
+D:\Rockrin\Desktop\Proyecto\HitosReportes 2016-01-22\PruebasUnitarias\obj\Debug\PruebasUnitarias.csproj.CoreCompileInputs.cache
+D:\Rockrin\Desktop\Proyecto\HitosReportes 2016-01-22\PruebasUnitarias\obj\Debug\PruebasUnitarias.dll
+D:\Rockrin\Desktop\Proyecto\HitosReportes 2016-01-22\PruebasUnitarias\obj\Debug\PruebasUnitarias.pdb

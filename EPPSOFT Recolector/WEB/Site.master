@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <title><%: Page.Title %></title>
+    <asp:PlaceHolder ID="PlaceHolder1" runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference ID="BundleReference1" runat="server" Path="~/Content/css" />
+    <meta name="viewport" content="width=device-width" />
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+</head>
+<body>
+    <form id="Form1" runat="server">
+        <script type="text/javascript">
+            Sys.WebForms.PageRequestManager.getInstance().add_beginRequest(beginReq);
+            Sys.WebForms.PageRequestManager.getInstance().add_endRequest(endReq);
+
+            function beginReq(sender, args) {
+                // shows the Popup 
+                $find('<%= ModalProgress.ClientID %>').show();
+            }
+
+            function endReq(sender, args) {
+                //  shows the Popup 
+                $find('<%= ModalProgress.ClientID %>').hide();
+            }
+        </script>
+        <asp:ToolkitScriptManager runat="server" ID="sm" ClientIDMode="AutoID">
+
+        </asp:ToolkitScriptManager>
+        <asp:Panel ID="panelUpdateProgress" runat="server" CssClass="updateProgress">
+            <asp:UpdateProgress ID="UpdateProg1" DisplayAfter="0" runat="server">
+                <ProgressTemplate>
+                    <div style="position: relative; top: 30%; text-align: center;">
+                        <img id="Img1" runat="server" src="~/Images/loading.gif" style="vertical-align: middle" alt="Processing" />
+                        Processing ...
+                    </div>
+                </ProgressTemplate>
+            </asp:UpdateProgress>
+        </asp:Panel>
+        <asp:ModalPopupExtender ID="ModalProgress" runat="server" TargetControlID="panelUpdateProgress"
+            BackgroundCssClass="modalBackground" PopupControlID="panelUpdateProgress" />
+        <div id="wrapper_body">
+            <div id="wrapper_header">
+                <div class="header">
+                    <h1 class="logo">
+                        <a href="Default.aspx"></a>
+                    </h1>
+                    <h2 class="logo_hitos">
+                        <a href="#" title="hitos" target="_blank">Hitos</a>
+                    </h2>
+                    <div class="navi_user">
+                        <asp:Panel ID="PanelLoginName" runat="server">
+                            <p>
+                               
+                                    <asp:Label ID="lNombre" runat="server"  CssClass="username" Text="Reporte Prueba"></asp:Label>
+                            
+                            <asp:LoginView ID="LoginView1" runat="server" ValidateRequestMode="Enabled" ViewStateMode="Enabled">
+                                <LoggedInTemplate>
+                                    
+                                        </a>
+                                        <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutAction="Redirect" LogoutText="Salir" LogoutPageUrl="~/Login.aspx" />
+                                    
+                                </LoggedInTemplate>
+                            </asp:LoginView>
+                                </p>
+                        </asp:Panel>
+                        <div id="navigation" runat="server" style="display: none">
+                            <asp:Menu ID="mMenu" runat="server" DataSourceID="xdsMenu" Orientation="Horizontal" OnDataBound="mMenu_DataBound">
+                                <DataBindings>
+                                    <asp:MenuItemBinding DataMember="menuItem" NavigateUrlField="NavigateUrlField" TextField="TextField"
+                                        ValueField="ValueField" />
+                                </DataBindings>
+                            </asp:Menu>
+                            <asp:XmlDataSource ID="xdsMenu" runat="server" DataFile="mMenu.xml" XPath="/*/*"></asp:XmlDataSource>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="wrapper_main">
+                <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+
+                <section class="content-wrapper clear-fix" runat="server">
+                    <asp:ContentPlaceHolder runat="server" ID="InicioContent" />
+                </section>
+            </div>
+            <div class="footer">
+                <div class="copy_right row">
+                    <div class="textwidget">
+                        <p>
+                        </p>
+                    </div>
+                    <div class="brand_logo">
+                        <a href="#">
+                            <img id="Img7" alt="Gattaca Weblab" width="80" runat="server" src="~/Images/brand_logo.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

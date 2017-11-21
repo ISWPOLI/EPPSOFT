@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Terceros>
+  <Item Columna="IdTercero" TipoDato="int" PermiteVacio="false"></Item>
+  <Item Columna="NombreSubproyecto" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="NivelMedicion" TipoDato="int" PermiteVacio="false"></Item>
+  <Item Columna="CodigoOpcion" TipoDato="string" PermiteVacio="false"></Item>
+</Terceros>

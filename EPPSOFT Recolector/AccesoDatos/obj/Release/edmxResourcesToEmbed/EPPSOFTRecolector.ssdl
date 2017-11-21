@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EPPSOFTRecolectorModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Actividad">
+    <Key>
+      <PropertyRef Name="IdActividad" />
+    </Key>
+    <Property Name="IdActividad" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdProceso" Type="int" Nullable="false" />
+    <Property Name="NombreActividad" Type="nvarchar" MaxLength="90" Nullable="false" />
+    <Property Name="DuracionActividad" Type="int" />
+    <Property Name="EsHito" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Adjunto">
+    <Key>
+      <PropertyRef Name="IdAdjunto" />
+    </Key>
+    <Property Name="IdAdjunto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdRegistroActividad" Type="int" Nullable="false" />
+    <Property Name="UrlAdjunto" Type="nvarchar" MaxLength="250" />
+    <Property Name="TipoAdjunto" Type="nvarchar" MaxLength="90" />
+  </EntityType>
+  <EntityType Name="Caso">
+    <Key>
+      <PropertyRef Name="IdCaso" />
+    </Key>
+    <Property Name="IdCaso" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdProceso" Type="int" Nullable="false" />
+    <Property Name="IdCliente" Type="int" Nullable="false" />
+    <Property Name="NoDeCaso" Type="nvarchar" MaxLength="90" Nullable="false" />
+    <Property Name="NombreRadicador" Type="nvarchar" MaxLength="90" Nullable="false" />
+    <Property Name="NumeroDeTramite" Type="nvarchar" MaxLength="90" />
+    <Property Name="FechaInicioProceso" Type="datetime" Nullable="false" />
+    <Property Name="FechaOferta" Type="datetime" />
+    <Property Name="DestinacionPrestamo" Type="nvarchar" MaxLength="90" />
+    <Property Name="CiudadOficinaUtilizacion" Type="nvarchar" MaxLength="90" />
+    <Property Name="IdCiudadUtilizacion" Type="int" Nullable="false" />
+    <Property Name="MontoAprobado" Type="nvarchar" MaxLength="90" />
+    <Property Name="PesosUVR" Type="nvarchar" MaxLength="90" />
+    <Property Name="PresentaSubsidio" Type="nvarchar" MaxLength="90" />
+    <Property Name="FolioMatricula" Type="nvarchar" MaxLength="90" />
+    <Property Name="ObsercaionAprobarCreditoEInformar" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="Categoria">
+    <Key>
+      <PropertyRef Name="IdCategoria" />
+    </Key>
+    <Property Name="IdCategoria" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="90" Nullable="false" />
+    <Property Name="Color" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ValorMinimo" Type="int" Nullable="false" />
+    <Property Name="ValorMaximo" Type="int" Nullable="false" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ciudad">
+    <Key>
+      <PropertyRef Name="Id_ciudad" />
+    </Key>
+    <Property Name="Id_ciudad" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ciudad" Type="nvarchar" MaxLength="90" />
+    <Property Name="Codigo" Type="int" />
+    <Property Name="Coordenadas" Type="varchar" MaxLength="70" />
+    <Property Name="IdDepartamento" Type="int" />
+  </EntityType>
+  <EntityType Name="ClaseProducto">
+    <Key>
+      <PropertyRef Name="idClaseProducto" />
+    </Key>
+    <Property Name="idClaseProducto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sCodigoClaseProducto" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="sClaseProducto" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="IdCliente" />
+    </Key>
+    <Property Name="IdCliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreCliente" Type="nvarchar" MaxLength="90" Nullable="false" />
+    <Property Name="TipoIdentificacion" Type="nvarchar" MaxLength="90" Nullable="false" />
+    <Property Name="NumeroIdentificacion" Type="nvarchar" MaxLength="90" Nullable="false" />
+    <Property Name="IdCiudad" Type="int" Nullable="false" />
+    <Property Name="FechaNacimiento" Type="date" Nullable="false" />
+    <Property Name="Edad" Type="int" Nullable="false" />
+    <Property Name="TelefonoFijo" Type="nvarchar" MaxLength="90" />
+    <Property Name="TelefonoCelular" Type="nvarchar" MaxLength="90" />
+    <Property Name="TelefonoFijo2" Type="nvarchar" MaxLength="90" />
+    <Property Name="TelefonoCelular2" Type="nvarchar" MaxLength="90" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="90" />
+    <Property Name="CorreoElectronico" Type="nvarchar" MaxLength="90" />
+    <Property Name="SueldoBasico" Type="nvarchar" MaxLength="90" />
+    <Property Name="NombreCliente2" Type="nvarchar" MaxLength="90" />
+    <Property Name="NumeroIdentificacionCliente2" Type="nvarchar" MaxLength="90" />
+  </EntityType>
+  <EntityType Name="Departamento">
+    <Key>
+      <PropertyRef Name="IdDepartamento" />
+    </Key>
+    <Property Name="IdDepartamento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Codigo" Type="int" />
+    <Property Name="Nombre" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="IdZona" Type="tinyint" />
+    <Property Name="Coordenadas" Type="varchar" MaxLength="70" />
+  </EntityType>
+  <EntityType Name="NovedadServicio">
+    <Key>
+      <PropertyRef Name="idNovedadServicio" />
+    </Key>
+    <Property Name="idNovedadServicio" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sCodigoNovedadServicio" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="sNovedadServicio" Type="varchar" MaxLength="90" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Perfil">
+    <Key>
+      <PropertyRef Name="IdPerfil" />
+    </Key>
+    <Property Name="IdPerfil" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombrePerfil" Type="varchar" MaxLength="80" />
+  </EntityType>
+  <EntityType Name="Planilla">
+    <Key>
+      <PropertyRef Name="idPlanilla" />
+    </Key>
+    <Property Name="idPlanilla" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="iCodigoPlanilla" Type="int" Nullable="false" />
+    <Property Name="idGenerador" Type="int" Nullable="false" />
+    <Property Name="dFechaRecolección" Type="datetime" Nullable="false" />
+    <Property Name="idVehiculoRecoleccion" Type="int" Nullable="false" />
+    <Property Name="iReportadoUsuarioKg" Type="int" Nullable="false" />
+    <Property Name="iRecolectadoKg" Type="int" Nullable="false" />
+    <Property Name="sRecipientes" Type="varchar" MaxLength="400" />
+    <Property Name="bEncontrados" Type="bit" />
+    <Property Name="bRecogidos" Type="bit" />
+    <Property Name="sNombreUsuarioEntrega" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="imgFirmaRecolector" Type="image" />
+    <Property Name="imgFirmaUsuario" Type="image" />
+    <Property Name="idNovedadesServicio" Type="int" Nullable="false" />
+    <Property Name="sOtrasNovedades" Type="varchar" MaxLength="100" />
+    <Property Name="idClaseProducto" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Proceso">
+    <Key>
+      <PropertyRef Name="IdProceso" />
+    </Key>
+    <Property Name="IdProceso" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreProceso" Type="nvarchar" MaxLength="90" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RegistroActividad">
+    <Key>
+      <PropertyRef Name="IdRegistroActividad" />
+    </Key>
+    <Property Name="IdRegistroActividad" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdActividad" Type="int" Nullable="false" />
+    <Property Name="IdCaso" Type="int" Nullable="false" />
+    <Property Name="EstadoActividad" Type="nvarchar" MaxLength="90" />
+    <Property Name="FechaVencimientoActividad" Type="datetime" />
+    <Property Name="usuarioResponsable" Type="nvarchar" MaxLength="90" />
+    <Property Name="FechaCreacionActividad" Type="datetime" />
+    <Property Name="FechaInicioActividad" Type="datetime" />
+    <Property Name="FechaFinalizacionActividad" Type="datetime" />
+    <Property Name="TiempoDeEjecucion" Type="bigint" />
+    <Property Name="TiempoDeEspera" Type="bigint" />
+    <Property Name="DuracionTotal" Type="bigint" />
+    <Property Name="HitoFinalizado" Type="bit" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="IdUsuario" />
+    </Key>
+    <Property Name="IdUsuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreUsuario" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Contrasenia" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Habilitado" Type="bit" Nullable="false" />
+    <Property Name="idPerfil" Type="int" />
+    <Property Name="ContraseniaAsignada" Type="bit" />
+    <Property Name="CorreoRegistro" Type="varchar" MaxLength="200" />
+    <Property Name="NombreCompleto" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Vehiculo">
+    <Key>
+      <PropertyRef Name="idVehiculo" />
+    </Key>
+    <Property Name="idVehiculo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="iNumeroMovil" Type="int" Nullable="false" />
+    <Property Name="sPlaca" Type="varchar" MaxLength="6" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Zona">
+    <Key>
+      <PropertyRef Name="IdZona" />
+    </Key>
+    <Property Name="IdZona" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Zona" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Actividad_Proceso">
+    <End Role="Proceso" Type="Self.Proceso" Multiplicity="1" />
+    <End Role="Actividad" Type="Self.Actividad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proceso">
+        <PropertyRef Name="IdProceso" />
+      </Principal>
+      <Dependent Role="Actividad">
+        <PropertyRef Name="IdProceso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Adjunto_RegistroActividad">
+    <End Role="RegistroActividad" Type="Self.RegistroActividad" Multiplicity="1" />
+    <End Role="Adjunto" Type="Self.Adjunto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RegistroActividad">
+        <PropertyRef Name="IdRegistroActividad" />
+      </Principal>
+      <Dependent Role="Adjunto">
+        <PropertyRef Name="IdRegistroActividad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Caso_Ciudad">
+    <End Role="Ciudad" Type="Self.Ciudad" Multiplicity="1" />
+    <End Role="Caso" Type="Self.Caso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ciudad">
+        <PropertyRef Name="Id_ciudad" />
+      </Principal>
+      <Dependent Role="Caso">
+        <PropertyRef Name="IdCiudadUtilizacion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Caso_Cliente">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="Caso" Type="Self.Caso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="IdCliente" />
+      </Principal>
+      <Dependent Role="Caso">
+        <PropertyRef Name="IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Caso_Proceso">
+    <End Role="Proceso" Type="Self.Proceso" Multiplicity="1" />
+    <End Role="Caso" Type="Self.Caso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proceso">
+        <PropertyRef Name="IdProceso" />
+      </Principal>
+      <Dependent Role="Caso">
+        <PropertyRef Name="IdProceso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ciudad_Departamento">
+    <End Role="Departamento" Type="Self.Departamento" Multiplicity="0..1" />
+    <End Role="Ciudad" Type="Self.Ciudad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departamento">
+        <PropertyRef Name="IdDepartamento" />
+      </Principal>
+      <Dependent Role="Ciudad">
+        <PropertyRef Name="IdDepartamento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Departamento_Zona">
+    <End Role="Zona" Type="Self.Zona" Multiplicity="0..1" />
+    <End Role="Departamento" Type="Self.Departamento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Zona">
+        <PropertyRef Name="IdZona" />
+      </Principal>
+      <Dependent Role="Departamento">
+        <PropertyRef Name="IdZona" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Planilla_ClaseProducto">
+    <End Role="ClaseProducto" Type="Self.ClaseProducto" Multiplicity="1" />
+    <End Role="Planilla" Type="Self.Planilla" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClaseProducto">
+        <PropertyRef Name="idClaseProducto" />
+      </Principal>
+      <Dependent Role="Planilla">
+        <PropertyRef Name="idClaseProducto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Planilla_NovedadServicio">
+    <End Role="NovedadServicio" Type="Self.NovedadServicio" Multiplicity="1" />
+    <End Role="Planilla" Type="Self.Planilla" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NovedadServicio">
+        <PropertyRef Name="idNovedadServicio" />
+      </Principal>
+      <Dependent Role="Planilla">
+        <PropertyRef Name="idNovedadesServicio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Planilla_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Planilla" Type="Self.Planilla" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="Planilla">
+        <PropertyRef Name="idGenerador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Planilla_Vehiculo">
+    <End Role="Vehiculo" Type="Self.Vehiculo" Multiplicity="1" />
+    <End Role="Planilla" Type="Self.Planilla" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vehiculo">
+        <PropertyRef Name="idVehiculo" />
+      </Principal>
+      <Dependent Role="Planilla">
+        <PropertyRef Name="idVehiculoRecoleccion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RegistroActividad_Actividad">
+    <End Role="Actividad" Type="Self.Actividad" Multiplicity="1" />
+    <End Role="RegistroActividad" Type="Self.RegistroActividad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Actividad">
+        <PropertyRef Name="IdActividad" />
+      </Principal>
+      <Dependent Role="RegistroActividad">
+        <PropertyRef Name="IdActividad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RegistroActividad_Caso">
+    <End Role="Caso" Type="Self.Caso" Multiplicity="1" />
+    <End Role="RegistroActividad" Type="Self.RegistroActividad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Caso">
+        <PropertyRef Name="IdCaso" />
+      </Principal>
+      <Dependent Role="RegistroActividad">
+        <PropertyRef Name="IdCaso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_Perfil">
+    <End Role="Perfil" Type="Self.Perfil" Multiplicity="0..1" />
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Perfil">
+        <PropertyRef Name="IdPerfil" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="idPerfil" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EPPSOFTRecolectorModelStoreContainer">
+    <EntitySet Name="Actividad" EntityType="Self.Actividad" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Adjunto" EntityType="Self.Adjunto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Caso" EntityType="Self.Caso" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Categoria" EntityType="Self.Categoria" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ciudad" EntityType="Self.Ciudad" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ClaseProducto" EntityType="Self.ClaseProducto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Departamento" EntityType="Self.Departamento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NovedadServicio" EntityType="Self.NovedadServicio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Perfil" EntityType="Self.Perfil" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Planilla" EntityType="Self.Planilla" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Proceso" EntityType="Self.Proceso" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RegistroActividad" EntityType="Self.RegistroActividad" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vehiculo" EntityType="Self.Vehiculo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Zona" EntityType="Self.Zona" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Actividad_Proceso" Association="Self.FK_Actividad_Proceso">
+      <End Role="Proceso" EntitySet="Proceso" />
+      <End Role="Actividad" EntitySet="Actividad" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Adjunto_RegistroActividad" Association="Self.FK_Adjunto_RegistroActividad">
+      <End Role="RegistroActividad" EntitySet="RegistroActividad" />
+      <End Role="Adjunto" EntitySet="Adjunto" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Caso_Ciudad" Association="Self.FK_Caso_Ciudad">
+      <End Role="Ciudad" EntitySet="Ciudad" />
+      <End Role="Caso" EntitySet="Caso" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Caso_Cliente" Association="Self.FK_Caso_Cliente">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Caso" EntitySet="Caso" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Caso_Proceso" Association="Self.FK_Caso_Proceso">
+      <End Role="Proceso" EntitySet="Proceso" />
+      <End Role="Caso" EntitySet="Caso" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ciudad_Departamento" Association="Self.FK_Ciudad_Departamento">
+      <End Role="Departamento" EntitySet="Departamento" />
+      <End Role="Ciudad" EntitySet="Ciudad" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Departamento_Zona" Association="Self.FK_Departamento_Zona">
+      <End Role="Zona" EntitySet="Zona" />
+      <End Role="Departamento" EntitySet="Departamento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Planilla_ClaseProducto" Association="Self.FK_Planilla_ClaseProducto">
+      <End Role="ClaseProducto" EntitySet="ClaseProducto" />
+      <End Role="Planilla" EntitySet="Planilla" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Planilla_NovedadServicio" Association="Self.FK_Planilla_NovedadServicio">
+      <End Role="NovedadServicio" EntitySet="NovedadServicio" />
+      <End Role="Planilla" EntitySet="Planilla" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Planilla_Usuario" Association="Self.FK_Planilla_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Planilla" EntitySet="Planilla" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Planilla_Vehiculo" Association="Self.FK_Planilla_Vehiculo">
+      <End Role="Vehiculo" EntitySet="Vehiculo" />
+      <End Role="Planilla" EntitySet="Planilla" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RegistroActividad_Actividad" Association="Self.FK_RegistroActividad_Actividad">
+      <End Role="Actividad" EntitySet="Actividad" />
+      <End Role="RegistroActividad" EntitySet="RegistroActividad" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RegistroActividad_Caso" Association="Self.FK_RegistroActividad_Caso">
+      <End Role="Caso" EntitySet="Caso" />
+      <End Role="RegistroActividad" EntitySet="RegistroActividad" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_Perfil" Association="Self.FK_Usuario_Perfil">
+      <End Role="Perfil" EntitySet="Perfil" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

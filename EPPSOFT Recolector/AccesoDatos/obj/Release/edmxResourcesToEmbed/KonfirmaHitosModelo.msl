@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Konfirma_HitosModelStoreContainer" CdmEntityContainer="Konfirma_HitosEntities">
+    <EntitySetMapping Name="Actividad">
+      <EntityTypeMapping TypeName="IsTypeOf(Konfirma_HitosModel.Actividad)">
+        <MappingFragment StoreEntitySet="Actividad">
+          <ScalarProperty Name="IdActividad" ColumnName="IdActividad" />
+          <ScalarProperty Name="IdProceso" ColumnName="IdProceso" />
+          <ScalarProperty Name="NombreActividad" ColumnName="NombreActividad" />
+          <ScalarProperty Name="DuracionActividad" ColumnName="DuracionActividad" />
+          <ScalarProperty Name="EsHito" ColumnName="EsHito" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Caso">
+      <EntityTypeMapping TypeName="IsTypeOf(Konfirma_HitosModel.Caso)">
+        <MappingFragment StoreEntitySet="Caso">
+          <ScalarProperty Name="IdCaso" ColumnName="IdCaso" />
+          <ScalarProperty Name="IdProceso" ColumnName="IdProceso" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="NoDeCaso" ColumnName="NoDeCaso" />
+          <ScalarProperty Name="NombreRadicador" ColumnName="NombreRadicador" />
+          <ScalarProperty Name="FechaInicioProceso" ColumnName="FechaInicioProceso" />
+          <ScalarProperty Name="FechaOferta" ColumnName="FechaOferta" />
+          <ScalarProperty Name="DestinacionPrestamo" ColumnName="DestinacionPrestamo" />
+          <ScalarProperty Name="CiudadOficinaUtilizacion" ColumnName="CiudadOficinaUtilizacion" />
+          <ScalarProperty Name="IdCiudadUtilizacion" ColumnName="IdCiudadUtilizacion" />
+          <ScalarProperty Name="MontoAprobado" ColumnName="MontoAprobado" />
+          <ScalarProperty Name="PesosUVR" ColumnName="PesosUVR" />
+          <ScalarProperty Name="PresentaSubsidio" ColumnName="PresentaSubsidio" />
+          <ScalarProperty Name="FolioMatricula" ColumnName="FolioMatricula" />
+          <ScalarProperty Name="ObsercaionAprobarCreditoEInformar" ColumnName="ObsercaionAprobarCreditoEInformar" />
+          <ScalarProperty Name="NumeroDeTramite" ColumnName="NumeroDeTramite" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ciudad">
+      <EntityTypeMapping TypeName="IsTypeOf(Konfirma_HitosModel.Ciudad)">
+        <MappingFragment StoreEntitySet="Ciudad">
+          <ScalarProperty Name="Nombre" ColumnName="Ciudad" />
+          <ScalarProperty Name="Id_ciudad" ColumnName="Id_ciudad" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Coordenadas" ColumnName="Coordenadas" />
+          <ScalarProperty Name="IdDepartamento" ColumnName="IdDepartamento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cliente">
+      <EntityTypeMapping TypeName="IsTypeOf(Konfirma_HitosModel.Cliente)">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="NombreCliente" ColumnName="NombreCliente" />
+          <ScalarProperty Name="TipoIdentificacion" ColumnName="TipoIdentificacion" />
+          <ScalarProperty Name="NumeroIdentificacion" ColumnName="NumeroIdentificacion" />
+          <ScalarProperty Name="IdCiudad" ColumnName="IdCiudad" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="Edad" ColumnName="Edad" />
+          <ScalarProperty Name="TelefonoFijo" ColumnName="TelefonoFijo" />
+          <ScalarProperty Name="TelefonoCelular" ColumnName="TelefonoCelular" />
+          <ScalarProperty Name="TelefonoFijo2" ColumnName="TelefonoFijo2" />
+          <ScalarProperty Name="TelefonoCelular2" ColumnName="TelefonoCelular2" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+          <ScalarProperty Name="SueldoBasico" ColumnName="SueldoBasico" />
+          <ScalarProperty Name="NombreCliente2" ColumnName="NombreCliente2" />
+          <ScalarProperty Name="NumeroIdentificacionCliente2" ColumnName="NumeroIdentificacionCliente2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departamento">
+      <EntityTypeMapping TypeName="IsTypeOf(Konfirma_HitosModel.Departamento)">
+        <MappingFragment StoreEntitySet="Departamento">
+          <ScalarProperty Name="IdDepartamento" ColumnName="IdDepartamento" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="IdZona" ColumnName="IdZona" />
+          <ScalarProperty Name="Coordenadas" ColumnName="Coordenadas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proceso">
+      <EntityTypeMapping TypeName="IsTypeOf(Konfirma_HitosModel.Proceso)">
+        <MappingFragment StoreEntitySet="Proceso">
+          <ScalarProperty Name="IdProceso" ColumnName="IdProceso" />
+          <ScalarProperty Name="NombreProceso" ColumnName="NombreProceso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RegistroActividad">
+      <EntityTypeMapping TypeName="IsTypeOf(Konfirma_HitosModel.RegistroActividad)">
+        <MappingFragment StoreEntitySet="RegistroActividad">
+          <ScalarProperty Name="IdRegistroActividad" ColumnName="IdRegistroActividad" />
+          <ScalarProperty Name="IdActividad" ColumnName="IdActividad" />
+          <ScalarProperty Name="IdCaso" ColumnName="IdCaso" />
+          <ScalarProperty Name="EstadoActividad" ColumnName="EstadoActividad" />
+          <ScalarProperty Name="FechaVencimientoActividad" ColumnName="FechaVencimientoActividad" />
+          <ScalarProperty Name="usuarioResponsable" ColumnName="usuarioResponsable" />
+          <ScalarProperty Name="FechaCreacionActividad" ColumnName="FechaCreacionActividad" />
+          <ScalarProperty Name="FechaInicioActividad" ColumnName="FechaInicioActividad" />
+          <ScalarProperty Name="FechaFinalizacionActividad" ColumnName="FechaFinalizacionActividad" />
+          <ScalarProperty Name="TiempoDeEjecucion" ColumnName="TiempoDeEjecucion" />
+          <ScalarProperty Name="TiempoDeEspera" ColumnName="TiempoDeEspera" />
+          <ScalarProperty Name="DuracionTotal" ColumnName="DuracionTotal" />
+          <ScalarProperty Name="HitoFinalizado" ColumnName="HitoFinalizado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zona">
+      <EntityTypeMapping TypeName="IsTypeOf(Konfirma_HitosModel.Zona)">
+        <MappingFragment StoreEntitySet="Zona">
+          <ScalarProperty Name="Nombre" ColumnName="Zona" />
+          <ScalarProperty Name="IdZona" ColumnName="IdZona" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="IsTypeOf(Konfirma_HitosModel.Usuario)">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="NombreUsuario" ColumnName="NombreUsuario" />
+          <ScalarProperty Name="Contrasenia" ColumnName="Contrasenia" />
+          <ScalarProperty Name="Habilitado" ColumnName="Habilitado" />
+          <ScalarProperty Name="IdPerfil" ColumnName="IdPerfil" />
+          <ScalarProperty Name="ContraseniaAsignada" ColumnName="ContraseniaAsignada" />
+          <ScalarProperty Name="CorreoRegistro" ColumnName="CorreoRegistro" />
+          <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categoria">
+      <EntityTypeMapping TypeName="IsTypeOf(Konfirma_HitosModel.Categoria)">
+        <MappingFragment StoreEntitySet="Categoria">
+          <ScalarProperty Name="IdCategoria" ColumnName="IdCategoria" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="ValorMinimo" ColumnName="ValorMinimo" />
+          <ScalarProperty Name="ValorMaximo" ColumnName="ValorMaximo" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Adjunto">
+      <EntityTypeMapping TypeName="IsTypeOf(Konfirma_HitosModel.Adjunto)">
+        <MappingFragment StoreEntitySet="Adjunto">
+          <ScalarProperty Name="IdAdjunto" ColumnName="IdAdjunto" />
+          <ScalarProperty Name="IdRegistroActividad" ColumnName="IdRegistroActividad" />
+          <ScalarProperty Name="UrlAdjunto" ColumnName="UrlAdjunto" />
+          <ScalarProperty Name="TipoAdjunto" ColumnName="TipoAdjunto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Perfil">
+      <EntityTypeMapping TypeName="IsTypeOf(Konfirma_HitosModel.Perfil)">
+        <MappingFragment StoreEntitySet="Perfil">
+          <ScalarProperty Name="IdPerfil" ColumnName="IdPerfil" />
+          <ScalarProperty Name="NombrePerfil" ColumnName="NombrePerfil" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Constructoras">
+      <EntityTypeMapping TypeName="IsTypeOf(Konfirma_HitosModel.Constructoras)">
+        <MappingFragment StoreEntitySet="Constructoras">
+          <ScalarProperty Name="NIT" ColumnName="NIT" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Correo_Electronico" ColumnName="Correo_Electronico" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proyectos">
+      <EntityTypeMapping TypeName="IsTypeOf(Konfirma_HitosModel.Proyectos)">
+        <MappingFragment StoreEntitySet="Proyectos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Constructora" ColumnName="Constructora" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="RptFNATrazaAjust3" FunctionName="Konfirma_HitosModel.Store.RptFNATrazaAjust" />
+    <EntitySetMapping Name="ReporteConstructoras">
+      <EntityTypeMapping TypeName="Konfirma_HitosModel.ReporteConstructora">
+        <MappingFragment StoreEntitySet="ReporteConstructora">
+          <ScalarProperty Name="IdActividad" ColumnName="IdActividad" />
+          <ScalarProperty Name="Ciudad" ColumnName="Ciudad" />
+          <ScalarProperty Name="Proyecto" ColumnName="Proyecto" />
+          <ScalarProperty Name="Constructora" ColumnName="Constructora" />
+          <ScalarProperty Name="Adjuntos" ColumnName="Adjuntos" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Duracion" ColumnName="Duracion" />
+          <ScalarProperty Name="FechaVencimiento" ColumnName="FechaVencimiento" />
+          <ScalarProperty Name="FechaFinalizacion" ColumnName="FechaFinalizacion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="responsable" ColumnName="responsable" />
+          <ScalarProperty Name="subestado" ColumnName="subestado" />
+          <ScalarProperty Name="NombreActividad" ColumnName="NombreActividad" />
+          <ScalarProperty Name="Numero_identificacion" ColumnName="Numero_identificacion" />
+          <ScalarProperty Name="NoDeCaso" ColumnName="NoDeCaso" />
+          <ScalarProperty Name="IdReporte" ColumnName="IdReporte" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

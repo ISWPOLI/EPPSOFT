@@ -1,0 +1,101 @@
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\LogicaNegocio\bin\Release\LogicaNegocio.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\LogicaNegocio\bin\Release\LogicaNegocio.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\LogicaNegocio\bin\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\LogicaNegocio\bin\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\LogicaNegocio\bin\Release\EntityFramework.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\LogicaNegocio\bin\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\LogicaNegocio\bin\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\LogicaNegocio\bin\Release\EntityFramework.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\LogicaNegocio\obj\Release\LogicaNegocio.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\LogicaNegocio\obj\Release\LogicaNegocio.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\LogicaNegocio\obj\Release\LogicaNegocio.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\LogicaNegocio\bin\Release\LogicaNegocio.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\LogicaNegocio\bin\Release\LogicaNegocio.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\LogicaNegocio\bin\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\LogicaNegocio\bin\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\LogicaNegocio\bin\Release\EntityFramework.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\LogicaNegocio\bin\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\LogicaNegocio\bin\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\LogicaNegocio\bin\Release\EntityFramework.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\LogicaNegocio\obj\Release\LogicaNegocio.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\LogicaNegocio\obj\Release\LogicaNegocio.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\LogicaNegocio\obj\Release\LogicaNegocio.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\LogicaNegocio\bin\Release\LogicaNegocio.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\LogicaNegocio\bin\Release\LogicaNegocio.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\LogicaNegocio\bin\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\LogicaNegocio\bin\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\LogicaNegocio\bin\Release\EntityFramework.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\LogicaNegocio\bin\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\LogicaNegocio\bin\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\LogicaNegocio\bin\Release\EntityFramework.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\LogicaNegocio\obj\Release\LogicaNegocio.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\LogicaNegocio\obj\Release\LogicaNegocio.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\LogicaNegocio\obj\Release\LogicaNegocio.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\LogicaNegocio\bin\Release\LogicaNegocio.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\LogicaNegocio\bin\Release\LogicaNegocio.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\LogicaNegocio\bin\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\LogicaNegocio\bin\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\LogicaNegocio\bin\Release\EntityFramework.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\LogicaNegocio\bin\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\LogicaNegocio\bin\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\LogicaNegocio\bin\Release\EntityFramework.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\LogicaNegocio\obj\Release\LogicaNegocio.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\LogicaNegocio\obj\Release\LogicaNegocio.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\LogicaNegocio\obj\Release\LogicaNegocio.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\LogicaNegocio\bin\Release\LogicaNegocio.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\LogicaNegocio\bin\Release\LogicaNegocio.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\LogicaNegocio\bin\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\LogicaNegocio\bin\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\LogicaNegocio\bin\Release\EntityFramework.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\LogicaNegocio\bin\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\LogicaNegocio\bin\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\LogicaNegocio\bin\Release\EntityFramework.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\LogicaNegocio\obj\Release\LogicaNegocio.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\LogicaNegocio\obj\Release\LogicaNegocio.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\LogicaNegocio\obj\Release\LogicaNegocio.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\LogicaNegocio\bin\Release\LogicaNegocio.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\LogicaNegocio\bin\Release\LogicaNegocio.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\LogicaNegocio\bin\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\LogicaNegocio\bin\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\LogicaNegocio\bin\Release\EntityFramework.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\LogicaNegocio\bin\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\LogicaNegocio\bin\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\LogicaNegocio\bin\Release\EntityFramework.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\LogicaNegocio\obj\Release\LogicaNegocio.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\LogicaNegocio\obj\Release\LogicaNegocio.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\LogicaNegocio\obj\Release\LogicaNegocio.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\LogicaNegocio\bin\Release\LogicaNegocio.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\LogicaNegocio\bin\Release\LogicaNegocio.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\LogicaNegocio\bin\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\LogicaNegocio\bin\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\LogicaNegocio\bin\Release\EntityFramework.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\LogicaNegocio\bin\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\LogicaNegocio\bin\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\LogicaNegocio\bin\Release\EntityFramework.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\LogicaNegocio\obj\Release\LogicaNegocio.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\LogicaNegocio\obj\Release\LogicaNegocio.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\LogicaNegocio\obj\Release\LogicaNegocio.pdb
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\LogicaNegocio\bin\Release\LogicaNegocio.dll
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\LogicaNegocio\bin\Release\LogicaNegocio.pdb
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\LogicaNegocio\bin\Release\AccesoDatos.dll
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\LogicaNegocio\bin\Release\Entidades.dll
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\LogicaNegocio\bin\Release\EntityFramework.dll
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\LogicaNegocio\bin\Release\AccesoDatos.pdb
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\LogicaNegocio\bin\Release\Entidades.pdb
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\LogicaNegocio\bin\Release\EntityFramework.xml
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\LogicaNegocio\obj\Release\LogicaNegocio.csprojResolveAssemblyReference.cache
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\LogicaNegocio\obj\Release\LogicaNegocio.dll
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\LogicaNegocio\obj\Release\LogicaNegocio.pdb
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\LogicaNegocio\bin\Release\LogicaNegocio.dll
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\LogicaNegocio\bin\Release\LogicaNegocio.pdb
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\LogicaNegocio\bin\Release\AccesoDatos.dll
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\LogicaNegocio\bin\Release\Entidades.dll
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\LogicaNegocio\bin\Release\EntityFramework.dll
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\LogicaNegocio\bin\Release\AccesoDatos.pdb
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\LogicaNegocio\bin\Release\AccesoDatos.dll.config
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\LogicaNegocio\bin\Release\Entidades.pdb
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\LogicaNegocio\bin\Release\EntityFramework.xml
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\LogicaNegocio\obj\Release\LogicaNegocio.csprojResolveAssemblyReference.cache
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\LogicaNegocio\obj\Release\LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\LogicaNegocio\obj\Release\LogicaNegocio.dll
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\LogicaNegocio\obj\Release\LogicaNegocio.pdb

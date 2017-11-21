@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Municipios>
+  <Item Columna="CodigoMunicipio" TipoDato="int" PermiteVacio="false"></Item>
+</Municipios>

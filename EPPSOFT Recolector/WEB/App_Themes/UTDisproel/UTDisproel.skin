@@ -1,0 +1,7 @@
+﻿<asp:GridView runat="server" CssClass="GridHitos">
+     <AlternatingRowStyle CssClass="AlternatingRowStyle" />
+     <RowStyle CssClass="RowStyle" />
+     <HeaderStyle CssClass="HeaderStyle" />
+     <FooterStyle CssClass="FooterStyle" />
+     <PagerStyle CssClass="PagerStyle" />  
+</asp:GridView>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Municipios>
+  <Item Columna="CodigoHito" TipoDato="string" PermiteVacio="false"></Item>
+  <Item Columna="IdCargo" TipoDato="int" PermiteVacio="false"></Item>
+  <Item Columna="CodigoEntregable" TipoDato="string" PermiteVacio="false"></Item>
+</Municipios>

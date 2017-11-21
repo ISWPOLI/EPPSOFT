@@ -1,0 +1,109 @@
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\AccesoDatos\bin\Release\AccesoDatos.dll.config
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\AccesoDatos\bin\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\AccesoDatos\bin\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\AccesoDatos\bin\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\AccesoDatos\bin\Release\EntityFramework.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\AccesoDatos\bin\Release\EntityFramework.SqlServer.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\AccesoDatos\bin\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\AccesoDatos\bin\Release\EntityFramework.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\AccesoDatos\bin\Release\EntityFramework.SqlServer.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\AccesoDatos\obj\Release\AccesoDatos.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\AccesoDatos\obj\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes\AccesoDatos\obj\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\AccesoDatos\bin\Release\AccesoDatos.dll.config
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\AccesoDatos\bin\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\AccesoDatos\bin\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\AccesoDatos\bin\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\AccesoDatos\bin\Release\EntityFramework.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\AccesoDatos\bin\Release\EntityFramework.SqlServer.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\AccesoDatos\bin\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\AccesoDatos\bin\Release\EntityFramework.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\AccesoDatos\bin\Release\EntityFramework.SqlServer.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\AccesoDatos\obj\Release\AccesoDatos.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\AccesoDatos\obj\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-15\AccesoDatos\obj\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\AccesoDatos\bin\Release\AccesoDatos.dll.config
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\AccesoDatos\bin\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\AccesoDatos\bin\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\AccesoDatos\bin\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\AccesoDatos\bin\Release\EntityFramework.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\AccesoDatos\bin\Release\EntityFramework.SqlServer.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\AccesoDatos\bin\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\AccesoDatos\bin\Release\EntityFramework.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\AccesoDatos\bin\Release\EntityFramework.SqlServer.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\AccesoDatos\obj\Release\AccesoDatos.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\AccesoDatos\obj\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-07-21\AccesoDatos\obj\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\AccesoDatos\bin\Release\AccesoDatos.dll.config
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\AccesoDatos\bin\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\AccesoDatos\bin\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\AccesoDatos\bin\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\AccesoDatos\bin\Release\EntityFramework.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\AccesoDatos\bin\Release\EntityFramework.SqlServer.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\AccesoDatos\bin\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\AccesoDatos\bin\Release\EntityFramework.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\AccesoDatos\bin\Release\EntityFramework.SqlServer.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\AccesoDatos\obj\Release\AccesoDatos.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\AccesoDatos\obj\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-08-15\AccesoDatos\obj\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\AccesoDatos\bin\Release\AccesoDatos.dll.config
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\AccesoDatos\bin\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\AccesoDatos\bin\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\AccesoDatos\bin\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\AccesoDatos\bin\Release\EntityFramework.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\AccesoDatos\bin\Release\EntityFramework.SqlServer.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\AccesoDatos\bin\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\AccesoDatos\bin\Release\EntityFramework.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\AccesoDatos\bin\Release\EntityFramework.SqlServer.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\AccesoDatos\obj\Release\AccesoDatos.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\AccesoDatos\obj\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2015-11-11\AccesoDatos\obj\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\AccesoDatos\bin\Release\AccesoDatos.dll.config
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\AccesoDatos\bin\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\AccesoDatos\bin\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\AccesoDatos\bin\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\AccesoDatos\bin\Release\EntityFramework.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\AccesoDatos\bin\Release\EntityFramework.SqlServer.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\AccesoDatos\bin\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\AccesoDatos\bin\Release\EntityFramework.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\AccesoDatos\bin\Release\EntityFramework.SqlServer.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\AccesoDatos\obj\Release\AccesoDatos.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\AccesoDatos\obj\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-08\AccesoDatos\obj\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\AccesoDatos\bin\Release\AccesoDatos.dll.config
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\AccesoDatos\bin\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\AccesoDatos\bin\Release\AccesoDatos.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\AccesoDatos\bin\Release\Entidades.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\AccesoDatos\bin\Release\EntityFramework.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\AccesoDatos\bin\Release\EntityFramework.SqlServer.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\AccesoDatos\bin\Release\Entidades.pdb
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\AccesoDatos\bin\Release\EntityFramework.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\AccesoDatos\bin\Release\EntityFramework.SqlServer.xml
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\AccesoDatos\obj\Release\AccesoDatos.csprojResolveAssemblyReference.cache
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\AccesoDatos\obj\Release\AccesoDatos.dll
+E:\Kalfonso\Mis documentos\Visual Studio 2012\Projects\HitosReportes 2016-01-22\AccesoDatos\obj\Release\AccesoDatos.pdb
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\AccesoDatos\bin\Release\AccesoDatos.dll.config
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\AccesoDatos\bin\Release\AccesoDatos.dll
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\AccesoDatos\bin\Release\AccesoDatos.pdb
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\AccesoDatos\bin\Release\Entidades.dll
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\AccesoDatos\bin\Release\EntityFramework.dll
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\AccesoDatos\bin\Release\EntityFramework.SqlServer.dll
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\AccesoDatos\bin\Release\Entidades.pdb
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\AccesoDatos\bin\Release\EntityFramework.xml
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\AccesoDatos\bin\Release\EntityFramework.SqlServer.xml
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\AccesoDatos\obj\Release\AccesoDatos.csprojResolveAssemblyReference.cache
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\AccesoDatos\obj\Release\AccesoDatos.dll
+E:\Clientes GTK\Konfirma\Hitos Konfirma\HitosReportes 2016-01-22\AccesoDatos\obj\Release\AccesoDatos.pdb
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\AccesoDatos\bin\Release\AccesoDatos.dll.config
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\AccesoDatos\bin\Release\AccesoDatos.dll
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\AccesoDatos\bin\Release\AccesoDatos.pdb
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\AccesoDatos\bin\Release\Entidades.dll
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\AccesoDatos\bin\Release\EntityFramework.dll
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\AccesoDatos\bin\Release\EntityFramework.SqlServer.dll
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\AccesoDatos\bin\Release\Entidades.pdb
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\AccesoDatos\bin\Release\EntityFramework.xml
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\AccesoDatos\bin\Release\EntityFramework.SqlServer.xml
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\AccesoDatos\obj\Release\AccesoDatos.csprojResolveAssemblyReference.cache
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\AccesoDatos\obj\Release\AccesoDatos.csproj.CoreCompileInputs.cache
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\AccesoDatos\obj\Release\AccesoDatos.dll
+D:\Rockrin\Desktop\Proyecto\EPPSOFT Recolector\AccesoDatos\obj\Release\AccesoDatos.pdb
