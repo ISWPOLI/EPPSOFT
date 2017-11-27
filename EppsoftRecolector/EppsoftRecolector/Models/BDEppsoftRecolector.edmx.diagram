@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d54fbefa5a6449cea0617e93569fed12" Name="Diagram1">
+        <EntityTypeShape EntityType="EPPSOFTRecolectorModel.Actividad" Width="1.5" PointX="8" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="EPPSOFTRecolectorModel.Adjunto" Width="1.5" PointX="12.5" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EPPSOFTRecolectorModel.Caso" Width="1.5" PointX="8" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EPPSOFTRecolectorModel.Categoria" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EPPSOFTRecolectorModel.Ciudad" Width="1.5" PointX="5.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EPPSOFTRecolectorModel.ClaseProducto" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="EPPSOFTRecolectorModel.Cliente" Width="1.5" PointX="5.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EPPSOFTRecolectorModel.Departamento" Width="1.5" PointX="3.5" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EPPSOFTRecolectorModel.NovedadServicio" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EPPSOFTRecolectorModel.Perfil" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EPPSOFTRecolectorModel.Planilla" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EPPSOFTRecolectorModel.Proceso" Width="1.5" PointX="5.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EPPSOFTRecolectorModel.RegistroActividad" Width="1.5" PointX="10.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EPPSOFTRecolectorModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EPPSOFTRecolectorModel.Usuario" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="EPPSOFTRecolectorModel.Vehiculo" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EPPSOFTRecolectorModel.Zona" Width="1.5" PointX="1.25" PointY="14.875" IsExpanded="true" />
+        <AssociationConnector Association="EPPSOFTRecolectorModel.FK_Actividad_Proceso" ManuallyRouted="false" />
+        <AssociationConnector Association="EPPSOFTRecolectorModel.FK_RegistroActividad_Actividad" ManuallyRouted="false" />
+        <AssociationConnector Association="EPPSOFTRecolectorModel.FK_Adjunto_RegistroActividad" ManuallyRouted="false" />
+        <AssociationConnector Association="EPPSOFTRecolectorModel.FK_Caso_Ciudad" ManuallyRouted="false" />
+        <AssociationConnector Association="EPPSOFTRecolectorModel.FK_Caso_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="EPPSOFTRecolectorModel.FK_Caso_Proceso" ManuallyRouted="false" />
+        <AssociationConnector Association="EPPSOFTRecolectorModel.FK_RegistroActividad_Caso" ManuallyRouted="false" />
+        <AssociationConnector Association="EPPSOFTRecolectorModel.FK_Ciudad_Departamento" ManuallyRouted="false" />
+        <AssociationConnector Association="EPPSOFTRecolectorModel.FK_Planilla_ClaseProducto" ManuallyRouted="false" />
+        <AssociationConnector Association="EPPSOFTRecolectorModel.FK_Departamento_Zona" ManuallyRouted="false" />
+        <AssociationConnector Association="EPPSOFTRecolectorModel.FK_Planilla_NovedadServicio" ManuallyRouted="false" />
+        <AssociationConnector Association="EPPSOFTRecolectorModel.FK_Usuario_Perfil" ManuallyRouted="false" />
+        <AssociationConnector Association="EPPSOFTRecolectorModel.FK_Planilla_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="EPPSOFTRecolectorModel.FK_Planilla_Vehiculo" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

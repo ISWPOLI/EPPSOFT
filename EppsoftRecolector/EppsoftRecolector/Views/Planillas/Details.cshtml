@@ -1,0 +1,138 @@
+﻿@model EppsoftRecolector.Models.Planilla
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Planilla</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.iCodigoPlanilla)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.iCodigoPlanilla)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dFechaRecolección)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dFechaRecolección)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.iReportadoUsuarioKg)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.iReportadoUsuarioKg)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.iRecolectadoKg)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.iRecolectadoKg)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sRecipientes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sRecipientes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.bEncontrados)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bEncontrados)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.bRecogidos)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bRecogidos)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sNombreUsuarioEntrega)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sNombreUsuarioEntrega)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.imgFirmaRecolector)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.imgFirmaRecolector)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.imgFirmaUsuario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.imgFirmaUsuario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sOtrasNovedades)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sOtrasNovedades)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClaseProducto.sCodigoClaseProducto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClaseProducto.sCodigoClaseProducto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NovedadServicio.sCodigoNovedadServicio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NovedadServicio.sCodigoNovedadServicio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Usuario.NombreUsuario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Usuario.NombreUsuario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vehiculo.sPlaca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vehiculo.sPlaca)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idPlanilla }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

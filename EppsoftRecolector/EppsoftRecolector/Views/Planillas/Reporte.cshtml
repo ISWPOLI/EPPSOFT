@@ -1,0 +1,154 @@
+﻿@model IEnumerable<EppsoftRecolector.Models.Planilla>
+
+@{
+    ViewBag.Title = "Reporte";
+}
+<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Mushrooms', 3],
+          ['Onions', 1],
+          ['Olives', 1],
+          ['Zucchini', 1],
+          ['Pepperoni', 2]
+        ]);
+
+        // Set chart options
+        var options = {'title':'How Much Pizza I Ate Last Night',
+                       'width':400,
+                       'height':300};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+</script>
+
+<div id="chart_div"></div>
+
+<@*h2>Reporte</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.iCodigoPlanilla)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dFechaRecolección)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.iReportadoUsuarioKg)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.iRecolectadoKg)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sRecipientes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.bEncontrados)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.bRecogidos)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sNombreUsuarioEntrega)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.imgFirmaRecolector)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.imgFirmaUsuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sOtrasNovedades)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClaseProducto.sCodigoClaseProducto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NovedadServicio.sCodigoNovedadServicio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Usuario.NombreUsuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Vehiculo.sPlaca)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.iCodigoPlanilla)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dFechaRecolección)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.iReportadoUsuarioKg)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.iRecolectadoKg)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sRecipientes)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.bEncontrados)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.bRecogidos)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sNombreUsuarioEntrega)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.imgFirmaRecolector)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.imgFirmaUsuario)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sOtrasNovedades)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClaseProducto.sCodigoClaseProducto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NovedadServicio.sCodigoNovedadServicio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Usuario.NombreUsuario)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Vehiculo.sPlaca)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idPlanilla }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idPlanilla }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idPlanilla })
+        </td>
+    </tr>
+}
+
+</table>*@
